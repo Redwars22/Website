@@ -1,0 +1,58 @@
+@import url(https://fonts.googleapis.com/css2?family=Roboto:wght@100;200;300;400;500;600;800;900&display=swap);
+
+body {
+    margin: 0px;
+    display: grid;
+    grid-template-rows: 50px auto 80px;
+}
+
+.topBar {
+    align-items: center;
+    display: grid;
+    grid-template-columns: 45px auto 170px 150px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.desktop {
+    min-height: 476px;
+    display: grid;
+    place-items: center;
+}
+
+.dock {
+    margin-left: 215px;
+    margin-right: 215px;
+    border-radius: 20px;
+    padding: 8px;
+    margin-bottom: 7px;
+}
+
+p {
+    vertical-align: center;
+}
+
+.profilePicture {
+    margin-left: 10px;
+    border-radius: 100%;
+}
+
+.window {
+    min-height: 380px;
+    border-radius: 20px;
+    margin-top: 15px;
+    margin-left: 200px;
+    margin-right: 200px;
+    padding: 10px;
+}
+
+iframe {
+    margin: 8px;
+    height: 370px;
+    width: 880px;
+}
+
+.menu-container {
+    display: grid;
+    grid-template-columns: 110px auto;
+}

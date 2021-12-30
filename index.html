@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="src/layout.css">
+    <link rel="stylesheet" href="src/theme.css">
+    <link rel="stylesheet" href="src/elements.css">
+    <link rel="shortcut icon" href="img/logo.ico" type="image/x-icon">
+    <script src="src/action.js"></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+
+<body>
+    <div class="topBar">
+        <img class="profilePicture" src="https://avatars.githubusercontent.com/u/26885598?v=4" width="30px" height="30px"/>
+        <div class="menu-container">
+            <!--<p><strong>André Pereira</strong>Contato Currículo Sobre Ajuda</p>-->
+            <strong>André Pereira</strong>
+            <div class="menu">
+                <a href="mailto:andrewpereira.megabyte@gmail.com">Contato</a>
+                <a onclick="curriculo()">Currículo</a>
+                <a onclick="about()">Sobre</a>
+                <a onclick="help()">Ajuda</a>
+            </div>
+        </div>
+        <div class="notificationArea">
+            <i class="material-icons icon">battery_charging_full</i>
+            <i class="material-icons icon">bluetooth</i>
+            <i class="material-icons icon">network_wifi</i>
+            <i class="material-icons icon">search</i>
+            <i class="material-icons icon">notifications_active</i>
+        </div>
+        <div class="systemTray">
+            <p>Seg 18 Dez - 22:43</p>
+        </div>
+    </div>
+
+    <div class="desktop" id="desktop">
+        <div class="window" id="window">
+            <div class="window-title">
+                <div class="buttonContainer">
+                    <button class="closeBtn" onclick="elHide()"></button>
+                    <button class="btn2"></button>
+                    <button class="btn3"></button>
+                </div>
+            </div>
+            <div class="window-content" id="window-content">
+                <iframe src="pages/about.html" frameborder="0"></iframe>
+            </div>
+        </div>
+    </div>
+
+    <div class="dock">
+        <a href="https://findwhere-1d8b2.firebaseapp.com/?68662">
+            <img class="appIcon" src="img/findwhere.png"/>
+        </a>
+        <a href="https://hexmatiz.firebaseapp.com/?72360">
+            <img class="appIcon" src="img/hexmatiz.png"/>
+        </a>
+        <a href="https://projectkelhot.stackblitz.io/">
+            <img class="appIcon" src="img/kelhot.png"/>
+        </a>
+        <a href="">
+            <img class="appIcon" src="img/pendraw.png"/>
+        </a>
+        <a href="">
+            <img class="appIcon" src="img/aftermath.png"/>
+        </a>
+        <a href="">
+            <img class="appIcon" src="img/armadillo.png"/>
+        </a>
+        <a href="https://projectdekount.redwars22.repl.co/">
+            <img class="appIcon" src="img/dekount.png"/>
+        </a>
+        <a href="">
+            <img class="appIcon" src="img/emerald.png"/>
+        </a>
+        <a href="">
+            <img class="appIcon" src="img/kanban.png"/>
+        </a>
+        <a href="https://projectkelvin.redwars22.repl.co/">
+            <img class="appIcon" src="img/kelvin.png"/>
+        </a>
+        <a href="">
+            <img class="appIcon" src="img/redemption.png"/>
+        </a>
+        <img class="separator" src="img/separator.png" width="1px" height="50px">
+        <a href="https://github.com/Redwars22">
+            <img class="appIcon" src="img/github.png"/>
+        </a>
+        <a href="https://codepen.io/redwars22">
+            <img class="appIcon" src="img/codepen.png"/>
+        </a>
+        <a href="https://stackblitz.com/@Redwars22">
+            <img class="appIcon round" src="img/stackblitz.jpg"/>
+        </a>
+        <a href="https://replit.com/@Redwars22">
+            <img class="appIcon round" src="img/replit.png"/>
+        </a>
+        <a href="https://www.linkedin.com/in/andr%C3%A9-pereira-justiniano-240106224/">
+            <img class="appIcon" src="img/linkedin.png"/>
+        </a>
+    </div>
+    <audio src="src/audio.mp3" loop autoplay></audio>
+</body>
+
+</html>

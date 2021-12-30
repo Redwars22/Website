@@ -1,0 +1,49 @@
+@import url(https://fonts.googleapis.com/css2?family=Roboto:wght@100;200;300;400;500;600;800;900&display=swap);
+
+body {
+    background-image: url('../img/background.jpg');
+    background-size: cover;
+    background-position: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+
+.topBar {
+    background-color: rgba(3, 5, 27, 0.945);
+    font-weight: bold;
+    font-weight: 300;
+    color: white;
+}
+
+.dock {
+    background-color: rgba(3, 5, 27, 0.596);
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.window {
+    background-color: rgba(3, 5, 27, 0.945);
+}
+
+.closeBtn {
+    background-color: #FA5E52;
+}
+
+.btn2 {
+    background-color: #FFBA03;
+}
+
+.btn3 {
+    background-color: #0BCD23;
+}
+
+.appIcon {
+    filter: saturate(80%);
+}
+
+.appIcon:hover {
+    filter: saturate(400%);
+}

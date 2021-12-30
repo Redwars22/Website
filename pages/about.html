@@ -1,0 +1,70 @@
+<body>
+  <style>
+    @import url(https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;200;300;400;500;600;700&display=swap);
+
+    .photo {
+      border-radius: 100%;
+      border: 5px solid rgb(0, 110, 255);
+    }
+
+    body {
+      color: white;
+      font-family: "Roboto Mono", monospace;
+      display: grid;
+      grid-template-columns: 30% 70%;
+    }
+
+    .left-panel {
+      border-right: 2px solid rgb(5, 95, 231);
+      display: grid;
+      place-items: center;
+      padding-right: 5px;
+      text-align: center;
+    }
+
+    .right-panel {
+      margin-left: 25px;
+      display: grid;
+      place-items: center;
+      text-align: center;
+    }
+
+    p {
+      font-size: 15px;
+    }
+
+    h1 {
+      font-size: 25px;
+    }
+
+    .icons {
+        filter: saturate(0%);
+        width: 320px;
+    }
+
+    .icons:hover {
+        filter: saturate(150%);
+    }
+  </style>
+  <div class="left-panel">
+    <img class="photo" src="https://github.com/Redwars22.png" width="150px" />
+    <h1>André Pereira</h1>
+    <p><em>Estudante de Engenharia de Software na UEPG</em></p>
+  </div>
+  <div class="right-panel">
+    <p>
+      Olá, sou o André (também conhecido online pelos nicks @Redwars22 e
+      @LeoAndrew), sou autodidata, e atualmente estudo Engenharia de Software na
+      UEPG. No meu tempo livre, desenvolvo projetos usando as ferramentas e
+      linguagens que estudo, para praticá-las e consolidar os conhecimentos
+      aprendidos. Minha área de interesse atual é a programação web (HTML, CSS,
+      JS, Angular, React, etc.) com ênfase em front-end, mas também me apraz
+      criar aplicações desktop em C, C++, Visual Basic, Python e C#
+      ocasionalmente. Outros hobbies: estudar idiomas e criar conlangs e
+      conworlds.
+    </p>
+    <div class="langIcons">
+      <img class="icons" src="../img/icons.png" />
+    </div>
+  </div>
+</body>

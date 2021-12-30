@@ -1,0 +1,42 @@
+@import url(https://fonts.googleapis.com/css2?family=Roboto:wght@100;200;300;400;500;600;800;900&display=swap);
+
+body {
+    background-image: url('../img/background.jpg');
+    background-size: cover;
+    margin: 0px;
+    display: grid;
+    grid-template-rows: 50px auto 150px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+
+.topBar {
+    background-color: rgba(255, 255, 255, 0.753);
+    align-items: center;
+    display: grid;
+    font-weight: bold;
+    grid-template-columns: 45px 30% auto 10%;
+    font-weight: 300;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.desktop {
+    min-height: 700px;
+}
+
+.dock {
+    background-color: rgba(255, 255, 255, 0.753);
+    margin-left: 300px;
+    margin-right: 300px;
+    border-radius: 20px;
+}
+
+p {
+    vertical-align: center;
+}
+
+.profilePicture {
+    margin-left: 10px;
+    border-radius: 100%;
+}
