@@ -21,11 +21,14 @@ body {
 }
 
 .dock {
-    margin-left: 215px;
-    margin-right: 215px;
+    margin-left: 235px;
+    margin-right: 235px;
     border-radius: 20px;
     padding: 8px;
     margin-bottom: 7px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
 }
 
 p {
