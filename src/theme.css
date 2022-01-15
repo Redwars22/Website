@@ -9,14 +9,14 @@ body {
 }
 
 .topBar {
-    background-color: rgba(3, 5, 27, 0.945);
+    background-color: #161920f1;
     font-weight: bold;
     font-weight: 300;
     color: white;
 }
 
 .dock {
-    background-color: rgba(3, 5, 27, 0.596);
+    background-color: #161920f1;
 }
 
 a {
@@ -25,7 +25,7 @@ a {
 }
 
 .window {
-    background-color: rgba(3, 5, 27, 0.945);
+    background-color: #161920f1;
 }
 
 .closeBtn {
