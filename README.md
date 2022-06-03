@@ -9,12 +9,19 @@ Besides coding, I also enjoy studying new languages (or even trying to "engineer
 - **Languages I speak:** Brazilian Portuguese (mothertongue), Spanish, English, French, German, Japanese, Italian, Regentish (my conlang)
 - **I live in:** Ponta Grossa, Brazil
 
-## TECHNOLOGIES 
-- <img src="" width="" height=""/> 
-- <img src="" width="" height=""/> 
-- <img src="" width="" height=""/> 
-- <img src="" width="" height=""/> 
-- <img src="" width="" height=""/> 
-- <img src="" width="" height=""/> 
+## TECHNOLOGIES
+<div>
+  <img width="45px" height="45px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" />
+  <img width="45px" height="45px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" />
+  <img width="45px" height="45px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" />
+  <img width="45px" height="45px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" />
+  <img width="45px" height="45px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />
+  <img width="45px" height="45px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" />
+  <img width="45px" height="45px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" />
+  <img width="45px" height="45px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vuejs/vuejs-original.svg" />
+  <img width="45px" height="45px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/angularjs/angularjs-original.svg" />
+  <img width="45px" height="45px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ubuntu/ubuntu-plain.svg" />
+</div>
+
 
 ## PROJECTS REPOS
